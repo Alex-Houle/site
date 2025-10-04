@@ -5,7 +5,7 @@ export default function Exp() {
         <div>
             <p>Experience:</p>
             <Job
-                title="It support Tech"
+                title="IT Support Tech"
                 bio="Provide hands-on technical support across multiple campuses, troubleshooting hardware, software, and network issues for students, faculty, and staff"
                 time="May 2025 - present"
             />

@@ -1,4 +1,6 @@
 import React from 'react'
+import profilePic from '../asset/profile.png'
+
 export default function Head() {
   return (
     <div className="flex items-center w-max h-max mx-auto p-4 space-x-4">
@@ -10,9 +12,10 @@ export default function Head() {
       </div>
       <img
         className="w-16 h-16 md:w-24 md:h-24 rounded-full border border-gray-300 flex-shrink-0"
-        src="profile.png"
+        src={profilePic}
         alt="Avatar"
       />
+
     </div>
   );
 }
