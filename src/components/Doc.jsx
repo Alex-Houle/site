@@ -4,7 +4,7 @@ import { Dock, DockIcon } from './ui/dock.jsx'
 
 export default function Doc() {
     return (
-        <div className='z-100t-20 mb-10 fixed bottom-0 left-0 w-full'>
+        <div className='z-100 t-20 mb-10 fixed bottom-0 left-0 w-full'>
             <Dock>
                 <DockIcon className='z-1' title="GitHub">
                     <a href="https://github.com/Alex-Houle" target='_blank'>
