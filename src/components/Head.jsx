@@ -6,7 +6,7 @@ export default function Head() {
     <div className="flex items-center w-max h-max mx-auto p-4 space-x-4">
       <div className='text-center'>
         <p className="text-2xl md:text-4xl font-semibold">Hello, I am Alex Houle</p>
-        <p className="text-xl md:text-3xl" style={{ color: '#D2B48C' }}>
+        <p className="text-xl md:text-3xl">
           Software Engineer
         </p>
       </div>

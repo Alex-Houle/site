@@ -3,7 +3,7 @@ import Job from './Job.jsx'
 export default function Exp() {
     return (
         <div>
-            <p>Experience:</p>
+            <p className='text-lg md:text-2xl'>Experience:</p>
             <Job
                 title="IT Support Tech"
                 bio="Provide hands-on technical support across multiple campuses, troubleshooting hardware, software, and network issues for students, faculty, and staff"
