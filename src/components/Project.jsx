@@ -18,7 +18,7 @@ export default function Project() {
 
 function Single({ title, bio, more, github }) {
     return (
-        <div className='mt-5 mb-5 m-auto flex flex-col w-7/8 max-w-full bg-[#3A3F44] rounded-lg relative z-10 p-4'>
+        <div className='mt-5 mb-5 m-auto flex flex-col w-7/8 max-w-full bg-gray-900 rounded-lg relative p-4'>
             <div>
                 <p className='text-lg md:text-2xl font-'>{title}</p>
                 <p className='text-[#adaaa3] text-base mt-1'>{bio}</p>

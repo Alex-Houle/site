@@ -1,8 +1,7 @@
 @import "tailwindcss";
 
 body {
-    background-color: #2F383E;
-    color: #D3C6AA;
+    color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     /* Default size for desktop/large screens */
 }   
