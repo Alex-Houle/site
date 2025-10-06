@@ -3,7 +3,7 @@ import { Dock, DockIcon } from './ui/dock.jsx'
 
 export default function Doc() {
     return (
-        <Dock className="z-10 bg-gray-900 t-20 mb-10 fixed bottom-0 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg">
+        <Dock className="z-10 bg-gray-900 t-20 mb-2 fixed bottom-0 left-1/2 transform -translate-x-1/2 px-4 py-2 rounded-lg">
             <DockIcon className='z-1' title="GitHub">
                 <a href="https://github.com/Alex-Houle" target="_blank" rel="noopener noreferrer">
                     <svg className="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
